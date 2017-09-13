@@ -1,0 +1,33 @@
+require 'pry'
+require 'colorize'
+require 'sass'
+require 'guard/compat/plugin'
+require_relative 'guard/guard_slides'
+require_relative 'guard/guard_readme'
+require_relative 'guard/guard_alexa'
+
+guard 'livereload' do
+  watch(%r(LESSON.md))
+  watch(%r(html/.*.html))
+  watch(%r(js/.*.js))
+  watch(%r(sass/.*.sass))
+end
+
+guard 'rack' do
+  watch('Gemfile.lock')
+end
+
+guard 'slides' do
+  watch('LESSON.md')      { :create_html }
+  watch(%r(html/.*.html)) { :create_html }
+  watch(%r(js/.*.js))     { :create_js }
+  watch(%r(sass/.*.sass)) { :create_css }
+end
+
+guard 'readme' do
+  watch('LESSON.md')
+end
+
+guard 'alexa' do
+  watch('LESSON.md')
+end
