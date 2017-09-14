@@ -25,3 +25,24 @@ section {
     padding: 10px;
     margin: 30px 10px;
 }
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.feature {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+section.features {
+    overflow: hidden;
+    clear: both;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px;
+}
