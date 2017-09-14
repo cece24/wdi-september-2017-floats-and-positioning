@@ -59,6 +59,7 @@ section.combo-deal {
 
 .desserts {
     overflow: hidden;
+    position: relative;
 }
 
 .dessert {
