@@ -46,3 +46,13 @@ h3 {
     text-align: center;
     margin: 5px;
 }
+
+.combo-item {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+section.combo-deal {
+    overflow: hidden;
+}
