@@ -65,6 +65,7 @@ section.combo-deal {
     width: 50%;
     float: left;
     padding: 10px;
+    position: relative;
 }
 
 .dessert h4 {
