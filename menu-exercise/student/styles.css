@@ -3,3 +3,14 @@
   Insert Galaxy Menu styles here to recreate the look of galaxy-restaurant-menu.pdf.
 
 */
+
+body {
+  background: #f0fff0;
+}
+
+header {
+    padding: 20px;
+    background-color: orange;
+    text-align: center;
+    border-bottom: 3px solid grey;
+}
