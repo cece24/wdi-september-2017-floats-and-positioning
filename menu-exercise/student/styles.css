@@ -66,3 +66,12 @@ section.combo-deal {
     float: left;
     padding: 10px;
 }
+
+.dessert h4 {
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    background-color: black;
+    color: white;
+    padding: 13px;
+}
