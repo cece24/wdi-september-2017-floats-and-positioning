@@ -56,3 +56,13 @@ h3 {
 section.combo-deal {
     overflow: hidden;
 }
+
+.desserts {
+    overflow: hidden;
+}
+
+.dessert {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
