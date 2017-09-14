@@ -76,3 +76,15 @@ section.combo-deal {
     color: white;
     padding: 13px;
 }
+
+.desserts h2 {
+    position: absolute;
+    top: 45%;
+    left: 37.5%;
+    width: 25%;
+    z-index: 100;
+    background-color: white;
+    border: 5px dashed brown;
+    border-radius: 15px;
+    padding: 10px 0;
+}
