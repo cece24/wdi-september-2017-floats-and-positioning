@@ -89,3 +89,17 @@ section.combo-deal {
     border-radius: 15px;
     padding: 10px 0;
 }
+
+footer > h3 {
+    background-color: #3cb371;
+    color: white;
+    text-align: left;
+    border: 1px solid white;
+    padding: 15px 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 120px;
+    margin: 0;
+}
