@@ -14,3 +14,14 @@ header {
     text-align: center;
     border-bottom: 3px solid grey;
 }
+
+main {
+    width: 95%;
+    margin: 15px auto;
+}
+
+section {
+    border: 1px solid orange;
+    padding: 10px;
+    margin: 30px 10px;
+}
